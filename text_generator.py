@@ -34,7 +34,7 @@ model.load_weights(f"results/{BASENAME}-{sequence_length}.h5")
 
 s = seed
 n_chars = 100
-# generate 400 characters
+# generate 100 characters
 generated = ""
 for i in tqdm.tqdm(range(n_chars), "Generating text"):
     # make the input sequence
